@@ -9,10 +9,56 @@ h1, h2 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 17px;
+}
+
+a {
+    color: rgb(248, 49, 47);
+    font-weight: bold;
+}
+
+form {
+    display: block;
+
 }
 
 footer {
     text-align: center;
     font-size: 13px;
 }
+
+.container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 600px;
+    background-color: rgba(125, 125, 125, 0.26);
+    border-radius: 10px;
+    box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.74);
+    -moz-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.74);
+    padding: 0px 15px 15px 15px;
+    margin-bottom: 20px;
+    }
+
+    .topic {
+        padding: 5px;
+        font-size: 15px;
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    .submit-button {
+        padding: 6px;
+        width: 80px;
+        border-radius: 10px;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .generated-poem {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        line-height: 24px;
+        color: black;
+    }
