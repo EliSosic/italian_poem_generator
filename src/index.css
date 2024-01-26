@@ -1,3 +1,18 @@
-h1 {
-    color: blue;
+body {
+    background-image: url("../marble-background.jpg");
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
 }
