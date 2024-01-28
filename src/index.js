@@ -17,7 +17,8 @@ function writePoem (event) {
    let prompt = `write a very short poem, maximum 5 sentences, in italian about ${topicInput.value}. Use basic html in italic to display it and separate each sentence going in a new line with < /br>. At the bottom of the poem sign it with Il tuo Amore`;
    let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-    //let poemOutput = docmunet.querySelector("#poem");
+    let poemElement = document.querySelector("#poem");
+    poemElement.innerHTML = `<span class="blink"> Generating your italian poem about ${topicInput.value} ✒️ </span>`;
     
 
    axios.get(apiUrl).then(showPoem);
